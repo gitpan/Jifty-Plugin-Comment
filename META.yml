@@ -18,8 +18,13 @@ no_index:
     - inc
     - t
 requires:
+  CGI::Cookie: 0
   HTML::Scrubber: 0
-  Jifty: 0
+  Jifty: 0.90409
+  MIME::Base64::URLSafe: 0
+  Regexp::Common: 0
+  Regexp::Common::Email::Address: 0
+  Regexp::Common::URI: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.9
+version: 1.00

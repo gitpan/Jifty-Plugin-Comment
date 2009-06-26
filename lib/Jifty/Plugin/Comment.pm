@@ -4,7 +4,7 @@ use warnings;
 package Jifty::Plugin::Comment;
 use base qw/ Jifty::Plugin /;
 
-our $VERSION = '0.9';
+our $VERSION = '1.00';
 
 __PACKAGE__->mk_accessors( qw/ akismet scrubber scrub_message / );
 
